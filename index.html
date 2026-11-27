@@ -138,7 +138,7 @@ $("log").innerHTML=logs.slice(0,5).map(row).join("");
 $("log2").innerHTML=f.map(row).join("")}
 $("q").oninput=draw;
 draw();
-const SB_URL="",SB_KEY=""; // isi dari Supabase (lihat panduan)
+const SB_URL="https://gvxyswmdwrpmkvjlqois.supabase.co",SB_KEY="sb_publishable_W3przx5h6lqPaR9ucWJfxg_c2k-Bryj"; // isi dari Supabase (lihat panduan)
 const sbOn=!!(SB_URL&&SB_KEY);
 const H={apikey:SB_KEY,"Content-Type":"application/json"};
 if(SB_KEY.startsWith("eyJ"))H.Authorization="Bearer "+SB_KEY;
